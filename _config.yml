@@ -24,3 +24,8 @@ kramdown:
   syntax_highlighter: rouge
 highlighter: rouge
 permalink: pretty
+
+gems:
+  - kramdown
+  - rouge
+  - liqud
