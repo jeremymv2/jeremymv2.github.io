@@ -28,4 +28,4 @@ permalink: pretty
 gems:
   - kramdown
   - rouge
-  - liqud
+  - liquid
