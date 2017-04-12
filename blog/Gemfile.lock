@@ -51,6 +51,7 @@ DEPENDENCIES
   jekyll-feed (~> 0.6)
   jekyll-theme-slate
   minima (~> 2.0)
+  tzinfo-data
 
 RUBY VERSION
    ruby 2.3.1p112
