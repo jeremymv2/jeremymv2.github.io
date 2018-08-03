@@ -1,13 +1,23 @@
-Grayscale Jekyll theme
-=========================
+# Jekyll Doc Theme
 
-Jekyll theme based on [Grayscale bootstrap theme ](http://ironsummitmedia.github.io/startbootstrap-grayscale/)
+Go to [the website](https://aksakalli.github.io/jekyll-doc-theme/) for detailed information and demo.
 
-## Demo
-View this jekyll theme in action [here](https://jeromelachaud.github.io/grayscale-theme)
+## Running locally
 
-## Screenshot
-![screenshot](https://raw.githubusercontent.com/jeromelachaud/grayscale-theme/master/screenshot.png)
+You need Ruby and gem before starting, then:
 
-=========
-For more details, read the [documentation](http://jekyllrb.com/)
+```bash
+# install bundler
+gem install bundler
+
+# clone the project
+git clone https://github.com/aksakalli/jekyll-doc-theme.git
+cd jekyll-doc-theme
+
+# run jekyll with dependencies
+bundle exec jekyll serve
+```
+
+## License
+
+Released under [the MIT license](LICENSE).
