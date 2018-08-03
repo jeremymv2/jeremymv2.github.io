@@ -122,7 +122,7 @@ to a Chef Server. In this article I'll mention doing so with Jenkins. However no
 from using another Pipeline toolset. Jenkins 2.0 introduces a Pipeline driven by a `Jenkinsfile`,
 making it very simple to drop into every repo, managing the code and automation together.
 
-Again, the actual implementation of uploading Policy almost ridiculously simple. It just boils down
+Again, the actual implementation of uploading Policy is almost ridiculously simple. It just boils down
 to `berks upload ..` and `knife upload ..`. [Lamont Lucas](https://github.com/FastRobot/chef-repo-example/blob/dca7d38ef1f0949412cde0f492670aa1deefe1ea/Jenkinsfile#L23-L35) has a great example in a Jenkinsfile.
 
 ```
