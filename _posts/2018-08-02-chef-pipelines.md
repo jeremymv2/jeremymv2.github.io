@@ -119,7 +119,7 @@ For integration testing, some approaches that can be used very effectively are:
 ## Chef Policy Upload
 After all linting, syntax and other checks are completed successfully it's safe to upload the Policy
 to a Chef Server. In this article I'll mention doing so with Jenkins. However nothing precludes you
-from using another Pipeline toolset. With Jenkins 2.0 introduces a Pipeline driven by a `Jenkinsfile`,
+from using another Pipeline toolset. Jenkins 2.0 introduces a Pipeline driven by a `Jenkinsfile`,
 making it very simple to drop into every repo, managing the code and automation together.
 
 Again, the actual implementation of uploading Policy almost ridiculously simple. It just boils down
