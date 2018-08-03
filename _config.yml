@@ -5,7 +5,7 @@ description: >
   A collection of floatsam including my own pragmatic ramblings
   about things such as software engineering, sailing, travels and whatever else.
 
-baseurl: "/jekyll-doc-theme" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: https://jeremymv2.github.io/
 git_address: https://github.com/jeremymv2
 git_edit_address: https://github.com/jeremymv2/jeremymv2.github.io
