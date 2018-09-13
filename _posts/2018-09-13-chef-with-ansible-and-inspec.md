@@ -147,10 +147,9 @@ After Ansible runs, it's time to converge with the Role/Env cookbook.
  17   vars {
  18     frontend_ip = "${aws_instance.myapp_cluster.*.public_ip[0]}"
  19     backend_ip = "${aws_instance.myapp_cluster.*.public_ip[1]}"
- 20     motd = "${var.run_list}"
- 21     run_list = "${var.run_list}"
- 22   }
- 23 }
+ 20     run_list = "${var.run_list}"
+ 21   }
+ 22 }
 
  ...
 
